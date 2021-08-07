@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(50, 50, 50, .8);
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +150,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(50, 50, 50, 1);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -658,6 +658,11 @@ a {
     max-width: 1000px;
 }
 
+.bloc-size {
+    width: 70%;
+    margin: auto;
+}
+
 .hero-bloc-text {
     font-size: 38px;
 }
@@ -774,18 +779,31 @@ h4 {
     background-color: #F3976C;
 }
 
+.bgc-dark {
+    background-color: #333333;
+    padding: 20px 10px;
+}
+
+.bor-rad {
+    border-radius: 50px;
+}
+
 .tc-white {
     color: #F3976C!important;
 }
 
+.tc-dark {
+    color: #333!important;
+}
+
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #333333!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #FF8C6F!important;
+    color: #333333!important;
 }
 
 .ltc-white {
